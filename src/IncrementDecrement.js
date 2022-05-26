@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Button from '@mui/material/Button';
 
 export default function IncrementDecrement() {
     let [number, setNumber] = useState(0);
@@ -16,8 +17,8 @@ export default function IncrementDecrement() {
     return (
         <>
             <h1>{number}</h1>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
+            <Button variant="text" color="success" onClick={increment}>Increment</Button>
+            <Button onClick={decrement}>Decrement</Button>
         </>
     )
 }
