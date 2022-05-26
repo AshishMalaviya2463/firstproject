@@ -1,5 +1,6 @@
 import './App.css';
-import Form from './Form';
+import IncrementDecrement from './IncrementDecrement';
+// import Form from './Form';
 // import DigitalClock from './DigitalClock';
 // import Math from './Math';
 // import Time from './Time';
@@ -37,7 +38,8 @@ function App() {
 
   return (
     <div className="App">
-      <Form />
+      <IncrementDecrement />
+      {/* <Form /> */}
       {/* <DigitalClock /> */}
       {/* <Time /> */}
       {/* <Math /> */}
