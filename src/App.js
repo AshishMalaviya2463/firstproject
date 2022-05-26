@@ -1,6 +1,7 @@
 import './App.css';
+import DigitalClock from './DigitalClock';
 // import Math from './Math';
-import Time from './Time';
+// import Time from './Time';
 
 function App() {
   // let arr = ['reverdale', 'titans', 'dark desire', 'tommoow', 'lucifer']
@@ -35,7 +36,8 @@ function App() {
 
   return (
     <div className="App">
-      <Time />
+      <DigitalClock />
+      {/* <Time /> */}
       {/* <Math /> */}
       {/* <h1>...Netflix...</h1>
       <p><b>top 5 web series...</b></p>
