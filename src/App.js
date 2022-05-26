@@ -1,4 +1,6 @@
 import './App.css';
+// import Math from './Math';
+import Time from './Time';
 
 function App() {
   // let arr = ['reverdale', 'titans', 'dark desire', 'tommoow', 'lucifer']
@@ -33,6 +35,8 @@ function App() {
 
   return (
     <div className="App">
+      <Time />
+      {/* <Math /> */}
       {/* <h1>...Netflix...</h1>
       <p><b>top 5 web series...</b></p>
       <li>1. {sort[0]}</li>
@@ -45,7 +49,9 @@ function App() {
       <h1>Date : {date}</h1>
 
       <h2>Time : {time}</h2> */}
-  {/* <h1 style={{color:'red'}}>Hello Sir ! <span style={style}>{text}</span></h1> */}
+      {/* <h1 style={{color:'red'}}>Hello Sir ! <span style={style}>{text}</span></h1> */}
+
+
 
 
     </div>
