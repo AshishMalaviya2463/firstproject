@@ -1,5 +1,6 @@
 import './App.css';
-import DigitalClock from './DigitalClock';
+import Form from './Form';
+// import DigitalClock from './DigitalClock';
 // import Math from './Math';
 // import Time from './Time';
 
@@ -36,7 +37,8 @@ function App() {
 
   return (
     <div className="App">
-      <DigitalClock />
+      <Form />
+      {/* <DigitalClock /> */}
       {/* <Time /> */}
       {/* <Math /> */}
       {/* <h1>...Netflix...</h1>
